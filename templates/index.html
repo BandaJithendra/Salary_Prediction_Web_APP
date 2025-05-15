@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prediction</title>
+    <style>
+      body {
+        background-image: url("{{url_for('static', filename='/Image/background-image.jpg')}}");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      form {
+        background-color: #d5dff0;
+        padding-top: 5mm;
+        padding-bottom: 1cm;
+      }
+      .main {
+        text-align: center;
+        font-size: ;
+        position: realtive;
+        margin-top: 11cm;
+        margin-right: 1cm;
+        margin-left: 27cm;
+        padding-top: 1mm;
+        background-color: #82a6e0;
+        border-radius: 2mm;
+      }
+      .exp {
+        height: 8mm;
+        width: 70mm;
+        font-size: 20px;
+        border-radius: 2mm;
+        font-family: ;
+      }
+      .sub {
+        height: 8mm;
+        width: 71mm;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-family: bold;
+        border-radius: 2mm;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Salary Prediction</h1>
+      <form action="login" method="post">
+        <input class="exp" type="text" name="exprience" placeholder="Enter your Exprience"
+        /><br /><br />
+        <input class="sub" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
